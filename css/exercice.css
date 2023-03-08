@@ -57,11 +57,15 @@
 /* 7. exercice-7 */
 .exercice-7 .container {
   display:flex;
-  align-items: center;
-  flex-flow: column-reverse nowrap;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  align-items:center;
+  justify-content: space-between;
 }
-.exercice-7 .element-grey {
-  align-self: flex-start;
+.exercice-7 .element-green {
+  order:-1 ;
+
+
 }
 /* 8. exercice-8 */
 

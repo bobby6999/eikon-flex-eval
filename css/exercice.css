@@ -49,14 +49,20 @@
 }
 /* 6. exercice-6 */
 .exercice-6 .container {
-  border: blue 20px solid ;
-  display:flex;
-  flex-flow:row nowrap;
-  justify-content: space-between;
+ display:flex;
+ flex-direction:column
+ justify-content: center;
 }
 
 /* 7. exercice-7 */
-
+.exercice-7 .container {
+  display:flex;
+  align-items: center;
+  flex-flow: column-reverse nowrap;
+}
+.exercice-7 .element-grey {
+  align-self: flex-start;
+}
 /* 8. exercice-8 */
 
 /* 9. exercice-9 */

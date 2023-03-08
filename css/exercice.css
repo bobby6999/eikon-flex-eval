@@ -84,4 +84,9 @@
   flex-wrap: wrap;
 }
 /* 10. exercice-10 */
+.exercice-10 .container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
 

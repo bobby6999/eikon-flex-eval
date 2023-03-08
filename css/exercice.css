@@ -48,6 +48,12 @@
   align-content: center;
 }
 /* 6. exercice-6 */
+.exercice-6 .container {
+  border: blue 20px solid ;
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+}
 
 /* 7. exercice-7 */
 

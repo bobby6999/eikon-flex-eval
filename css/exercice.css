@@ -1,11 +1,42 @@
 /* 1. exercice-1 */
+.exercice-1 .container {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
 
 /* 2. exercice-2 */
-
+.exercice-2 .container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column-reverse
+}
 /* 3. exercice-3 */
-
+.exercice-3 .container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.exercice-3 .element-blue {
+  order: -1;
+  align-self: flex-start;
+}
 /* 4. exercice-4 */
+.exercice-4 .container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+. .exercice-4 .element-pink  {
 
+}
 /* 5. exercice-5 */
 
 /* 6. exercice-6 */
